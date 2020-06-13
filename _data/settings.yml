@@ -1,0 +1,44 @@
+#-------------------------------
+# General Site Settings
+title: FZH
+logo: twitter_header1.png # You can add own logo.
+description: Faizah Aulia blog on Jekyll
+
+#-------------------------------
+# Author Settings
+author:
+  name: Faizah Aulia
+  image: fika_header_.jpg
+  say-hello: Hello, I’m <strong>Faizah Aulia</strong>
+  bio: People usually describe theirself with their speciality here, but Im just <strong> mediocre nobody </strong> so I just put some mumbling words here. Love to <strong>read</strong>, <strong>talk</strong> with my own minds and <strong>observe</strong> people. Lol.
+  # Designs, talks, and writes about <strong>web</strong>, <strong>ethics</strong>, <strong>privacy</strong>, and dev. I share design tutorials, free resources and inspiration. Loves <a href="#">music</a> & riding his bicycle.
+
+
+#-------------------------------
+# Contact links
+twitter: https://twitter.com/auliafaizahr # Add your Twitter handle
+# facebook: https://facebook.com/auliafaizahr # Add your Facebook handle
+# dribbble: https://dribbble.com/auliafaizahr # Add your Dribbble handle
+instagram: https://instagram.com/auliafaizahr # Add your Instagram handle
+pinterest: https://pinterest.com/auliafaizahr # Add your Pinterest handle
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: auliafaizahr # add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Instagram Feed
+instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+instagram-profile: auliafaizahr # Add instagram username
+
+
+#-------------------------------
+# Google Analytics
+google-analytics:  # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
