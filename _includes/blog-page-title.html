@@ -1,0 +1,48 @@
+<div class="row blog-page-title">
+  <div class="col">
+    <div class="title">
+      <h1>blog posts</h1>
+    </div>
+  </div>
+</div>
+
+<div class="container-article">
+  <div class="row">
+    <div class="col-lg-8 col-md-8 col-sm-12 px-md-5 px-5">
+      {% for post in site.posts %}
+        {% include blog-lists.html %}
+      {% endfor %}
+    </div>
+
+    <div class="col-lg-4 col-md-4 col-sm-12 px-5 px-md-2">
+      <div class="row">
+        <div class="col">
+        {% capture tags %}
+        {% for tag in site.tags %}
+          {{ tag[0] }}
+        {% endfor %}
+        {% endcapture %}
+        
+        <h4>Tags</h4>
+        
+        {% assign sortedTags = tags | split:" " | sort %}
+        <div class="box-clouds-tag">
+          {% for st in sortedTags %}
+            <a href="" class="tags-cloud">{{ st | tag_link }}</a>
+          {% endfor %}
+        </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          asdfadf
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-lg _footer">
+  {% include footer_blog.html %}
+</div>

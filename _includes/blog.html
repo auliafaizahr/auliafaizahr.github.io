@@ -1,0 +1,23 @@
+<div class="odd_bg full_screen main_title" id="blog">
+  <div class="row">
+    <div class="col">
+      <div class="title">
+        <h1>blog</h1>
+      </div>
+
+      <div class="list_posts">
+        <div class="row row_title">
+          <div class="col">
+            <h2>Recent Posts</h2>
+          </div>
+        </div>
+
+        {% for post in site.posts offset:1 limit:3 %}
+          {% include article-lists.html %}
+        {% endfor %}
+
+        <a href="{{ site.baseurl }}/articles">All Posts</a>
+      </div>
+    </div>
+  </div>
+</div>

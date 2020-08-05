@@ -1,0 +1,29 @@
+<div class="row article">
+  <article class="card">
+    <div class="article_">
+      <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+    </div>
+    <h2 class="article__title">
+      <a href="{{ post.url | prepend: site.baseurl }}" class="stretched-link">{{post.title}}</a>
+    </h2>
+    <p class="article__excerpt">
+      {% if post.description %}
+        {{ post.description }}
+      {% else %}
+        {{ post.content | strip_html | truncate: 300 }}
+      {% endif %}
+    </p>
+
+    <div class="article-tags">
+      {% if post.tags.size >= 1 %}
+        <div class="article-tags__box">
+          <span>Tags : </span>{% for tag in post.tags %}
+            <a href="{{ site.baseurl }}/tag/{{ tag | downcase }}" class="article__tag">{{ tag }}</a>
+          {% endfor %}
+        </div>
+      {% else %}
+      {% endif %}
+    </div>
+  </article>
+</div>
+
