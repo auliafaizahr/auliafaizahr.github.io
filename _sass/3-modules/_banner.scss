@@ -1,0 +1,135 @@
+.container-lg {
+  .row {
+    .banner-left {
+      display: flex;
+      justify-content: center;
+      background: url("/images/blob_.svg") no-repeat;
+      background-position: center;
+      background-size: contain;
+      padding: 1em;
+      margin: 3em 0;
+
+      .frame_image {
+        overflow: hidden;
+        width: 20em;
+        border-radius: 20em;
+
+        @media only screen and (max-width: 768px) {
+          width: 15em;
+        }
+      }
+
+      .container-pict {
+
+      }
+    }
+
+    .banner-right {
+      display: flex;
+      margin: 3em 0;
+
+      .desc_text {
+        @media only screen and (max-width: 768px) {
+          text-align: center;
+        }
+      }
+
+      .text_hello {
+        color: #707070;
+        font-weight: normal;
+        font-size: 48px;
+
+        @media only screen and (max-width: 1140px) {
+          font-size: 40px;
+        }
+
+        @media only screen and (max-width: 460px) {
+          font-size: 30px;
+        } 
+      }
+
+      .text_name {
+        color: #707070;
+        font-weight: bold;
+        font-size: 65px;
+        padding: .5em 0;
+        letter-spacing: 2px;
+
+        @media only screen and (max-width: 1140px) {
+          font-size: 55px;
+        }
+
+        @media only screen and (max-width: 460px) {
+          font-size: 30px;
+        } 
+
+        &::after {
+          content: " ";
+          display: block;
+          position: absolute;
+          height: 9px;
+          background: #9E898B;
+          width: 50px;
+          left: 22px;
+          border-radius: 6px;
+          margin-top: .5em;
+
+          @media only screen and (max-width: 768px) {
+            margin-left: -25px;
+            left: 50%;
+          }
+        }
+      }
+
+      .text_desc {
+        margin-top: 2em;
+        font-size: 20px;
+        line-height: initial;
+        color: #707070;
+
+        @media only screen and (max-width: 768px) {
+          text-align: center;
+        }
+      }
+
+      .desc_button {
+        display: flex;
+        flex-direction: column;
+
+        @media only screen and (max-width: 768px) {
+          text-align: center;
+        }
+
+        .socmed_button {
+          color: #9e898b;
+
+          .icon_banner {
+            margin: 0 5px;
+          }
+        }
+
+        .button_more {
+          margin-top: 1em;
+          
+          button {
+            border: none;
+            padding: 12px 15px;
+            border-radius: 50px;
+            background-color: #9E898B;
+            color: white;
+            letter-spacing: 2px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+
+    .svg {
+
+    }
+  }
+}
+
+.full_screen {
+  // height: 100vh;
+}

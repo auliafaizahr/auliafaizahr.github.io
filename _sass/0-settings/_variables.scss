@@ -15,7 +15,8 @@ $global-transition: all .35s;
 // *****************
 // Color Variables
 // *****************
-$brand-color: #f6b141;
+$brand-color: #9e898b
+;
 $dark: #393e46;
 $gray: #bbbbbb;
 $light-gray: #e6eef0;
@@ -50,12 +51,14 @@ $base-font-size: 16px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
+$base-font-family: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
 $base-line-height: 26px;
+
+$baseurl: "{{ site.baseurl }}";
 
 // Headings
 $heading-font-weight: 700;
-$heading-font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-family: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 $font-size-h1:  36px;
 $font-size-h2:  28px;
@@ -65,3 +68,79 @@ $font-size-h5:  18px;
 $font-size-h6:  16px;
 
 $heading-line-height: 1.2;
+
+$fa-font-path: "../src/fonts" !default;
+$fa-font-size-base:    16px !default;
+$fa-font-display:      block !default;
+$fa-css-prefix:        fa !default;
+$fa-version:           "5.14.0" !default;
+$fa-border-color:      #eee !default;
+$fa-inverse:           #fff !default;
+$fa-li-width:          2em !default;
+$fa-fw-width:          (20em / 16);
+$fa-primary-opacity:   1 !default;
+$fa-secondary-opacity: .4 !default;
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-brands-400.eot');
+  src: url('#{$fa-font-path}/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-brands-400.woff') format('woff'),
+  url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-brands-400.svg#fontawesome') format('svg');
+}
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+@function fa-content($fa-var) {
+  @return unquote("\"#{ $fa-var }\"");
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: $fa-font-display;
+  src: url('#{$fa-font-path}/fa-solid-900.eot');
+  src: url('#{$fa-font-path}/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
+  url('#{$fa-font-path}/fa-solid-900.woff') format('woff'),
+  url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype'),
+  url('#{$fa-font-path}/fa-solid-900.svg#fontawesome') format('svg');
+}
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+
+@font-face {
+	font-family: 'devicon';
+	src:url('#{$fa-font-path}/devicon.eot?');
+	src:url('#{$fa-font-path}/devicon.eot?') format('embedded-opentype'),
+		url('#{$fa-font-path}/devicon.woff?-hdf3wh') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="devicon-"], [class*=" devicon-"] {
+	font-family: 'devicon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

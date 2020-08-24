@@ -1,0 +1,36 @@
+.form_contact {
+  display: flex;
+  flex-direction: column;
+
+  .form_child {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+
+    label {
+      color: #9e898b;
+      font-weight: 600;
+    }
+
+    input, textarea {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: #9e898b 1px solid;
+      padding: 10px;
+      background: none;
+
+      &:focus {
+        background: #f6f5f5;
+      }
+    }
+
+    input[type="submit"] {
+      background-color: #9e898b;
+      border-radius: 5px;
+      color: white;
+      font-weight: 500;
+    }
+  }
+  
+}
