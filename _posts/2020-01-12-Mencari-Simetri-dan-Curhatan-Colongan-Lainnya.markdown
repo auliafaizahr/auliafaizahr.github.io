@@ -5,7 +5,6 @@ date:   2020-01-11 19:39:55 +0700
 image:  book_review.jpg
 tags:   review-buku curhat
 ---
-[Business vector created by grmarc - www.freepik.com ](https://www.freepik.com/free-photos-vectors/business)
 
 ### Intermezzo
 
