@@ -11,13 +11,13 @@
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
   <!-- Ionicons -->
   <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet">
 
-  <style>
-  {% capture include_to_scssify %}
-    {% include main.scss %}
-  {% endcapture %}
-  {{ include_to_scssify | scssify }}
-  </style>
+  <link href="{{ site.baseurl }}/src/style.min.css" rel="stylesheet">
+
+  {% if site.tags != "" %}
+    {% include collect_tags.html %}
+  {% endif %}
 </head>

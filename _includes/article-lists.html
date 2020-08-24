@@ -1,0 +1,13 @@
+<div class="row article">
+  <div class="col">
+    <article>
+      <div class="article_">
+        <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+      </div>
+      <h2 class="article__title">
+        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+      </h2>
+    </article>
+  </div>
+</div>
+
