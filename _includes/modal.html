@@ -1,0 +1,73 @@
+
+<div class="row">
+  <div class="container works_gallery">
+      <div class="row justify-content-md-center">
+      {% for work in site.data.works.docs %}
+          <div class="col-lg-3 col-md-3 col-sm-12 box_apps shadow-sm p-3 mb-5 mx-3 bg-white rounded">
+            <h2 class="work-title">{{ work.title }}</h2>
+            <p>{{ work.summary }}</p>
+            <div class="row">
+            {% for array in work.images-array limit:1 %}
+              <div class="">
+                <div class="">
+                  <img src="{{ site.baseurl }}/images/{{ array.image }}" alt="" class="img-modal">
+                </div>
+              </div>
+            {% endfor %}
+            </div>
+            <button type="button" class="btn btn-primary btn-modal" data-backdrop="static" data-toggle="modal" data-target="#myModal-{{ work.id }}">Detail</button>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" id="myModal-{{ work.id }}" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    {{ id }}
+                    <h1 class="work-title">{{ work.title }}</h1>
+                    <button type="button" class="close btn-close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="row justify-content-center">
+                    {% for array in work.images-array %}
+                      <div class="col-6 image-modal">
+                        <img src="{{ site.baseurl }}/images/{{ array.image }}" alt="" class="img-modal">
+                      </div>
+                    {% endfor %}
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="">
+                        <p>{{ work.description }}</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <a href="{{ work.link-live }}" class="btn btn-primary"  target="_blank">Live</a>
+                      <a href="{{ work.link-live }}" class="btn btn-primary"  target="_blank">Code on Github</a>
+                      <br />
+                      <p class="tech">Tech use: </p>
+                      <div class="row align-items-center py-0">
+                        {% for lang in work.techs-array %}
+                          <span class="image-modal icon-lang">
+                            {{ lang.tech }}
+                          </span>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+      {% endfor %}
+        </div>
+        <div class="row justify-content-center">
+          <div>
+            <h2><a href="">See All Projects</a></h2>
+          </div>
+        </div>
+    </div>
+  </div>
+
+

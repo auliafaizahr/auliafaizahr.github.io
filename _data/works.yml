@@ -1,0 +1,77 @@
+docs2_list_title: Works Documentation
+docs:
+
+- id: 1
+  title: To do List
+  description: This to do list apps has been built using react and yarn. The apps show an input form to add your to do list, then it come out as list in box after. <br/> <br/> If you done doing the list, you can checked it and it will be unavailabe to change, if you want to change your list, you can change directly on the form, and if you want to cancel, you just click (x) icon on the left side your list, then it will disappear.
+  summary: Apps about to do list
+  link-github:
+  link-live: https://to-do-list-68512.web.app/
+  techs-array:
+    - tech: <i class="devicon-react-original colored"></i>
+    - tech: <i class="devicon-sass-original colored"></i>
+    - tech: <i class="devicon-yarn-plain-wordmark colored"></i>
+    - tech: <i class="devicon-bootstrap-plain colored"></i>
+    - tech: <img src="https://img.icons8.com/color/48/000000/firebase.png"/>
+  images-array:
+    - image: learn_react.png
+
+- id: 2
+  title: Power
+  description: This is modal description for this modal1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  summary: Apps about abcd
+  link-github:
+  link-live:
+  techs-array:
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+  images-array:
+    - image: 03.jpg
+
+- id: 3
+  title: Reality
+  description: This is modal description for this modal1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  summary: Apps about abcd
+  link-github:
+  link-live:
+  techs-array:
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+  images-array:
+    - image: 03.jpg
+
+- id: 4
+  title: Time
+  description: This is modal description for this modal1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  summary: Apps about abcd
+  link-github:
+  link-live:
+  techs-array:
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+  images-array:
+    - image: 03.jpg
+
+- id: 5
+  title: Soul
+  description: This is modal description for this modal1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  summary: Apps about abcd
+  link-github:
+  link-live:
+  techs-array:
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+  images-array:
+    - image: 03.jpg
+
+- id: 6
+  title: Mind
+  description: This is modal description for this modal1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  summary: Apps about abcd
+  link-github:
+  link-live:
+  techs-array:
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
+  images-array:
+    - image: 03.jpg
