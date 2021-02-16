@@ -5,7 +5,8 @@ $(document).ready(function() {
     menuOpenIcon = $(".nav__icon-menu"),
     menuCloseIcon = $(".nav-icon__close"),
     menuList = $(".main-nav"),
-    searchOpenIcon = $(".nav__icon-search"),
+    searchOpenIcon = $(".nav__icon-
+    "),
     searchCloseIcon = $(".search__close"),
     searchBox = $(".search");
 

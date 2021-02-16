@@ -3,7 +3,7 @@
   <div class="container works_gallery">
       <div class="row justify-content-md-center">
       {% for work in site.data.works.docs %}
-          <div class="col-lg-3 col-md-3 col-sm-12 box_apps shadow-sm p-3 mb-5 mx-3 bg-white rounded">
+          <div class="col-lg-3 col-md-3 col-sm-12 box_apps shadow-sm p-3 mb-5 mx-3 bg-white rounded d-flex flex-column justify-content-between">
             <h2 class="work-title">{{ work.title }}</h2>
             <p>{{ work.summary }}</p>
             <div class="row">
@@ -28,7 +28,7 @@
                   </div>
                   <div class="row justify-content-center">
                     {% for array in work.images-array %}
-                      <div class="col-6 image-modal">
+                      <div class="col-lg-8 image-modal">
                         <img src="{{ site.baseurl }}/images/{{ array.image }}" alt="" class="img-modal">
                       </div>
                     {% endfor %}
@@ -43,7 +43,7 @@
                   <div class="row">
                     <div class="col">
                       <a href="{{ work.link-live }}" class="btn btn-primary"  target="_blank">Live</a>
-                      <a href="{{ work.link-live }}" class="btn btn-primary"  target="_blank">Code on Github</a>
+                      <a href="{{ work.link-github }}" class="btn btn-primary"  target="_blank">Code on Github</a>
                       <br />
                       <p class="tech">Tech use: </p>
                       <div class="row align-items-center py-0">
