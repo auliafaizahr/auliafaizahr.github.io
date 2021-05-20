@@ -1,15 +1,16 @@
 .form_contact {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 
   .form_child {
     display: flex;
     flex-direction: column;
     margin: 1em;
+    width: 100%;
 
     label {
       color: #9e898b;
-      font-weight: 600;
     }
 
     input, textarea {
@@ -26,11 +27,16 @@
     }
 
     input[type="submit"] {
-      background-color: #9e898b;
-      border-radius: 5px;
-      color: white;
+      background-color:  #EBAC9F;
+      // color: white;
       font-weight: 500;
+      border: none;
     }
   }
-  
+
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
 }

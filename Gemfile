@@ -4,3 +4,5 @@ gem "jekyll"
 gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem 'github-pages'
+
+gem 'pry'

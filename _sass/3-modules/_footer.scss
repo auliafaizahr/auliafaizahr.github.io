@@ -1,8 +1,9 @@
 .footer {
   &-blog {
-    background-color: #9e898b;
+    background-color: #AE8781;
     padding: 2em;
-    
+    font-family: 'PlayfairDisplay';
+
     .icon-footer {
       font-size: 30px;
       color: rgba(246, 245, 245, 1);
@@ -10,7 +11,7 @@
       @media only screen and (max-width: 768px) {
         font-size: 20px;
       }
-  
+
       @media only screen and (max-width: 576px) {
         font-size: 18px;
       }
@@ -23,7 +24,7 @@
       @media only screen and (max-width: 768px) {
         font-size: 16px;
       }
-  
+
       @media only screen and (max-width: 576px) {
         font-size: 13px;
       }
@@ -44,7 +45,6 @@
 
   &-title {
     color: rgba(246, 245, 245, 1);
-    font-weight: bolder;
     font-size: 35px;
 
     @media only screen and (max-width: 768px) {

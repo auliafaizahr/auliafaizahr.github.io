@@ -34,7 +34,7 @@ $heading-font-color: $dark;
 
 // Links
 $link-color: $brand-color;
-$link-color-hover: darken($dark, 15%);
+// $link-color-hover: darken($dark, 15%);
 
 // Button
 $button-color: $white;
@@ -51,14 +51,14 @@ $base-font-size: 16px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
+$base-font-family: 'Karla', Helvetica Neue, Helvetica, Arial, sans-serif;
 $base-line-height: 26px;
 
 $baseurl: "{{ site.baseurl }}";
 
 // Headings
 $heading-font-weight: 700;
-$heading-font-family: 'Poppins', Helvetica Neue, Helvetica, Arial, sans-serif;
+$heading-font-family: 'PlayfairDisplay', 'Karla', Helvetica Neue, Helvetica, Arial, sans-serif;
 
 $font-size-h1:  36px;
 $font-size-h2:  28px;
@@ -93,6 +93,17 @@ $fa-secondary-opacity: .4 !default;
   url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype'),
   url('#{$fa-font-path}/fa-brands-400.svg#fontawesome') format('svg');
 }
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../../src/fonts/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("../../src/fonts/Karla-Regular.ttf");
+}
+
 
 .fab {
   font-family: 'Font Awesome 5 Brands';

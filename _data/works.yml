@@ -8,17 +8,17 @@ docs:
   link-github: https://github.com/auliafaizahr/react-todolist
   link-live: https://to-do-list-68512.web.app/
   techs-array:
-    - tech: <i class="devicon-react-original colored"></i>
-    - tech: <i class="devicon-sass-original colored"></i>
-    - tech: <i class="devicon-yarn-plain-wordmark colored"></i>
-    - tech: <i class="devicon-bootstrap-plain colored"></i>
-    - tech: <img src="https://img.icons8.com/color/48/000000/firebase.png"/>
+    - tech: react
+    - tech: bootstrap
+    - tech: yarn
+    - tech: firebase
+  image: learn_react.png
   images-array:
     - image: learn_react.png
 
 - id: 2
   title: Donator Book
-  description: 
+  description:
     '<p> Donator Book is apps that built using Ruby on Rails and bootstrap also admin theme dashboard as its styling. Donator book functioned as data store for donator on an organization that accept donations either money or things. The features are :
       <ul class="px-5">
         <li>Input data donate money</li>
@@ -28,21 +28,31 @@ docs:
         <li>Show data in chart (using chart js)</li>
         <li>Edit data</li>
       </ul>
-    </p>
-    <p> Donator Book is apps that built using Ruby on Rails and bootstrap also admin theme dashboard as its styling. </p>'
-  summary: App to store donations data 
-  link-github:
+    </p>'
+  summary: App to store donations data
+  link-github: https://github.com/auliafaizahr/donator_book/tree/master
   link-live: https://donator-book.herokuapp.com/
   techs-array:
-    - tech: <i class="devicon-rails-plain-wordmark colored"></i>
-    - tech: <i class="devicon-sass-original colored"></i>
-    - tech: <i class="devicon-yarn-plain-wordmark colored"></i>
-    - tech: <i class="devicon-bootstrap-plain colored"></i>
-    - tech: <i class="devicon-heroku-original-wordmark colored"></i>
-    - tech: <i class="devicon-webpack-plain"></i>
-    - tech: <img src="https://www.opencodez.com/wp-content/uploads/2017/02/datatable.png"/>
-    - tech: <img src="https://camo.githubusercontent.com/9be0208aa516b4d1976412d27e9f73d851ea253f8ee005a0b600939f841bba8b/68747470733a2f2f7777772e63686172746a732e6f72672f6d656469612f6c6f676f2d7469746c652e737667"/>
-  images-array:
-    - image: login_donator_book.png
-    - image: dashboard_donator_book.png
-    - image: datatable_donator_book.png
+    - tech: Rails
+    - tech: Bootstrap
+    - tech: Webpack
+    - tech: Heroku
+  image: login_donator_book.png
+
+- id: 4
+  title: Weverse Alike
+  description:
+    '<p> Im cloning fan-community app build by HYBE (the house of BTS) using ruby on rails and deploy it in heroku.
+    </p>'
+  summary: Fan-community app that connecting between artist and fan.
+  link-github: https://github.com/auliafaizahr/weverse-alike/tree/master
+  link-live: https://weverse-alike.herokuapp.com/
+  techs-array:
+    - tech: Rails
+    - tech: Bootstrap
+    - tech: Webpack
+    - tech: Rspec
+    - tech: Selenium
+    - tech: Heroku
+  image: weversealike.png
+

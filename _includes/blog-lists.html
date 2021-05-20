@@ -1,5 +1,5 @@
 <div class="row article">
-  <article class="card">
+  <article class="card" style="border: none; background-color: #F7F6F2;">
     <div class="article_">
       <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
     </div>
@@ -13,17 +13,19 @@
         {{ post.content | strip_html | truncate: 300 }}
       {% endif %}
     </p>
-
-    <div class="article-tags">
-      {% if post.tags.size >= 1 %}
-        <div class="article-tags__box">
-          <span>Tags : </span>{% for tag in post.tags %}
-            <a href="{{ site.baseurl }}/blog/tags/{{ tag }}" class="article__tag">{{ tag }}</a>
-          {% endfor %}
-        </div>
-      {% else %}
-      {% endif %}
+    <div class="row">
+      <div class="article-tags">
+        {% if post.tags.size >= 1 %}
+          <div class="article-tags__box">
+            <span>Tags : </span>{% for tag in post.tags %}
+              <a href="{{ site.baseurl }}/blog/tags/{{ tag }}" class="article__tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+        {% else %}
+        {% endif %}
+      </div>
     </div>
   </article>
 </div>
+
 

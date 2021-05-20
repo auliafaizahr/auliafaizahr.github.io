@@ -1,9 +1,13 @@
-<div class="row article">
+<div class="row article card bloglist_card">
   <div class="col">
     <article>
       <div class="article_">
         <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
       </div>
+      <span class="reading-time" title="Estimated read time">
+        {% assign words = post.content | strip_html | number_of_words %}
+        {{ words | divided_by: 180 | plus: 1 }} min read.
+      </span>
       <h2 class="article__title">
         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
       </h2>

@@ -1,6 +1,7 @@
 .row {
   &._header {
     padding: 1.5em 0;
+    background-color: #F7F6F2;
 
     nav {
       .navbar-collapse{
@@ -9,11 +10,118 @@
             margin: 0 1em;
 
             a {
-              font-weight: bold;
+              // font-weight: bold;
+              font-family: 'PlayfairDisplay';
             }
           }
         }
       }
+
+      #hire_me {
+        background-color: #EBAC9F;
+        padding: 0 1.3em;
+      }
+
+      #contact:hover {
+        color: white;
+      }
+
+      .header-title {
+        font-family: 'PlayfairDisplay';
+      }
     }
   }
+}
+
+._about_me_row, .contact_row {
+  background-color:  #F7F6F2;
+  padding: 5em 0;
+  font-family: 'PlayfairDisplay';
+
+  h5 {
+    font-family: 'PlayfairDisplay';
+    line-height: 1.5em;
+    font-size: 1.5em;
+  }
+
+  .work_with_me {
+    background-color: #EBAC9F;
+    padding: 1em;
+    border: none;
+  }
+}
+
+._works_row {
+  font-family: 'PlayfairDisplay';
+  background-color: #F2F2F4;
+  padding: 3em 0;
+
+  h1 {
+    font-family: 'PlayfairDisplay';
+  }
+}
+
+.btn_univ {
+  background-color: #EBAC9F;
+  padding: 1em;
+  border: none;
+  font-family: 'PlayfairDisplay';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'PlayfairDisplay';
+}
+
+._blog_row {
+  padding: 3em 0;
+  background-color:  #F7F6F2;
+}
+
+
+.bloglist_card {
+	background-color: none;
+	border: none;
+	background-color: #F7F6F2;
+	padding-left: 1em;
+	border-radius: 0;
+  padding: 10px 0;
+
+  // &:hover {
+  //   border-left: 1px solid #EBAC9F;
+  //   background-color: white;
+  // }
+}
+
+.contact_row {
+  background-color: #F2F2F4;
+}
+
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a {
+  &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+  }
+}
+
+.pagination {
+  text-align: center;
+}
+
+.works-img-thumbnail {
+  width: 500px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
 }

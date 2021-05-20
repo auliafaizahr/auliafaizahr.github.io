@@ -1,11 +1,53 @@
-<div class="container-lg full_screen main_title" id="works">
-  <div class="row">
+<div class="row _works_row" id="works">
+  <div class="container-lg">
     <div class="col">
       <div class="title">
         <h1>works</h1>
+
+        <div class="row">
+          <div class="col">
+            <div class="row justify-content-center">
+              {% for data in site.data.works.docs %}
+                <div class="d-flex flex-column col-lg-4 col-md-6 col-sm-12 my-2 align-self-center">
+                  <div class="">
+                    <img src="{{ site.baseurl }}/images/{{ data.image }}" alt="" class="works-img-thumbnail">
+                  </div>
+                  <div class=" justify-content-center">
+                    <h5 class="text-center mt-5">{{ data.title }}</h5>
+                  </div>
+                  <div class=" justify-content-center">
+                    <p class="text-center">
+                      {{ data.summary }}
+                    </p>
+                  </div>
+                  <div class=" justify-content-center">
+                    <p class="text-center mx-2 d-flex flex-wrap justify-content-center">
+                      {% for tech in data.techs-array %}
+                        <span class="btn_univ my-2 mx-1 p-2" style="background-color: #E4D4C8;">
+                          {{ tech.tech }}
+                        </span>
+                      {% endfor %}
+                    </p>
+                  </div>
+                  <div class="justify-content-center align-items-end">
+                    <p class="text-center">
+                      <a href="{{ data.link-live }}" class="btn_univ text-white"  target="_blank">Live</a>
+                      <a href="{{ data.link-github }}" class="btn_univ text-white"  target="_blank">Code on Github</a>
+                    </p>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+            <div class="row pt-5 justify-content-center">
+              <div class="col-4">
+                <button class="btn_univ" style="width: 100%;">
+                  <a href="https://github.com/auliafaizahr" target="_blank" >SEE ALL WORKS</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-    {% include modal.html %}
 </div>

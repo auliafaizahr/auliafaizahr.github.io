@@ -34,11 +34,11 @@ module.exports = {
     new MiniCssExtractPlugin({
     filename: 'style.min.css'
     }),
-    // new CopyWebpackPlugin({
-    //   patterns: [
-    //     { from: "./images/*.png", to: "./images/[name].webp" },
-    //   ]
-    // }),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: "./images/*.{jpg,png,jpeg}", to: "./images/[name].webp" },
+      ]
+    }),
     new ImageminWebpackPlugin({
       plugins: [
         ImageminWebP({
@@ -46,18 +46,18 @@ module.exports = {
         })
       ]
     }),
-    // new ImageminWebpWebpackPlugin({
-    //   config: [{
-    //     test: /\.(jpe?g|png)/,
-    //     options: {
-    //       quality:  75
-    //     }
-    //   }],
-    //   overrideExtension: true,
-    //   detailedLogs: false,
-    //   silent: false,
-    //   strict: true
-    // }),
+    new ImageminWebpWebpackPlugin({
+      config: [{
+        test: /\.(jpe?g|png)/,
+        options: {
+          quality:  75
+        }
+      }],
+      overrideExtension: true,
+      detailedLogs: false,
+      silent: false,
+      strict: true
+    }),
   ],
   module: {
     rules: [

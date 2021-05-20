@@ -1,13 +1,13 @@
-<div class="container-lg odd_bg full_screen main_title" id="blog">
-  <div class="row">
+<div class="row _blog_row" id="blog">
+  <div class="container-lg">
     <div class="col">
-      <div class="title">
-        <h1>blog</h1>
+      <div class="title pb-4">
+        <h1>BLOG</h1>
       </div>
 
       <div class="list_posts">
         <div class="row row_title">
-          <div class="col">
+          <div class="col mb-5">
             <h2>Recent Posts</h2>
           </div>
         </div>
@@ -16,7 +16,11 @@
           {% include article-lists.html %}
         {% endfor %}
 
-        <a href="{{ site.baseurl }}/articles">All Posts</a>
+        <div class="mt-5">
+          <a href="{{ site.baseurl }}/blog">
+            <button class="btn_univ">SEE ALL POSTS</button>
+          </a>
+        </div>
       </div>
     </div>
   </div>

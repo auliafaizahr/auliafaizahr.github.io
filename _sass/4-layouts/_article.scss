@@ -5,7 +5,6 @@
     .article_ {
       &_date {
         color: #D1C8D0;
-        font-weight: 600;
         font-size: 20px;
 
         @media only screen and (max-width: 576px) {
@@ -16,7 +15,6 @@
 
     h2 {
       letter-spacing: 0;
-      font-weight: 600;
 
       a {
         color: #A1799D;

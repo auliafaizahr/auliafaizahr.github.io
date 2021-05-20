@@ -8,24 +8,13 @@
   }
 
   .title {
-    
+
     h1 {
-      font-weight: 600;
       color: #9e898b;
 
       @media only screen and (max-width: 768px) {
         font-size: 30px;
       }
-    }
-
-    &::after {
-      content: " ";
-      display: block;
-      position: absolute;
-      height: 5px;
-      background: #9e898b;
-      width: 40px;
-      top: 4em;
     }
   }
 }
