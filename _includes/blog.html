@@ -12,7 +12,7 @@
           </div>
         </div>
 
-        {% for post in site.posts offset:1 limit:3 %}
+        {% for post in site.posts limit:3 %}
           {% include article-lists.html %}
         {% endfor %}
 
