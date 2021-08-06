@@ -1,0 +1,167 @@
+[
+  
+    {
+      "category" : "",
+      "title"    : "Book Summary: Rails Anti Pattern by Chad Pytel and Tammer Saleh(pt. 1-Model)",
+      "tags"     : "rails, book-techno, book",
+      "url"      : "/2021/05/24/Book-Summary-Rails-Anti-Pattern-by-Chad-Pytel-and-Tammer-Saleh-Model/",
+      "date"     : "2021-05-24 19:39:55 +0700",
+      "content"  : "As Junior Developer Rails, I do realize Im still lack of knowledge of this beautiful programming language here and there, so I try to find as many as source to learn more about this language. So many people recommend this book titled ‘Rails Anti Pattern’ by Chad Pytel and Tammer Saleh. I havent done yet read all sections of this book, but I still want to post this and took this as my learning journey.The book is organized into concise, modular chapters—each outlines a single common AntiPattern and offers detailed, cookbook-style code solutions that were previously difficult or impossible to find. Leading Rails developers Chad Pytel and Tammer Saleh also offer specific guidance for refactoring existing bad code or design to reflect sound object-oriented principles and established Rails best practices. With their help, developers, architects, and testers can dramatically improve new and existing applications, avoid future problems, and establish superior Rails coding standards throughout their organizations.This book will help reader to understand and solve problem by dividing into these part :  Model layer code, from general object-oriented programming violations to complex SQL and excessive redundancy  Domain modeling, including schema and database issues such as normalization and serialization  View layer tools and conventions  Controller-layer code, including RESTful code  Service-related APIs, including timeouts, exceptions, backgrounding, and response codes  Third-party code, including plug-ins and gems  Testing, from test suites to test-driven development processes  Scaling and deployment  Database issues, including migrations and validations  System design for “graceful degradation” in the real worldWhat Are AntiPatterns?The term AntiPatterns was coined in 1995 by Andrew Koeing, inspired by Gang of Four’s book Design Patterns, which developed the concept of design patterns in the software field.AntiPatterns are common approaches to recurring problems that ultimately prove to be ineffective.In this post I just going to talk about 1st Chapter(Model)SUMMARY CHAPTER 1 - ModelSome points I got after reading chapter 1 - Model :  Put database related logical in model, as long as we can put and fetch from model directly, put the logical on model  Dont do more than one dot (Following the Law of Demeter)  Using delegate to avoid one dot  Learn and mastering scope and use it in model as much as you can, to maximize database related logical  KEEP DRY by delegating responsibility to new classes, make it single responsibility principle  Use models  Learn and understand ActiveRecord Associations DeeperThere’s possibility I misinterpret how chapter 1 about Model on this book, but this is what I got, Im going to finish this book and read about other’s perspective too to richen my knowledge.Feel free to criticize and correct me if Im wrong."
+    } ,
+  
+    {
+      "category" : "",
+      "title"    : "My Reading Journey and Things I Just Realized (also I learned)",
+      "tags"     : "buku, curhat, insight",
+      "url"      : "/2020/01/14/My-Reading-Journey-and-Things-I-Learn-From-Myself/",
+      "date"     : "2020-01-14 19:39:55 +0700",
+      "content"  : "Book vector created by slidesgo- www.freepik.comReview (dan Curcol)Awal - awal baca tuh kayak bingung kan, mikir ‘kok gak kayak buku-buku Annisa Ihsani yang lain ? Ga ada rumus matematika, gada hal matematika atau fisika atau sains lainnya yang harus dipecahkan, latar belakang tempat di Jakarta (?), dan hal-hal imajinatif lainnya yang biasanya dipakai Annisa Ihsani dalam buku-bukunya’. Turned out ini genrenya metropop, bukan middle grade atau YA seperti biasanya. Still, Annisa masih pakai kekhasannya kalau menulis, setidaknya di judul yang agak matematis(read: Simetri), dan gaya bahasa yang layaknya seperti membaca buku terjemahan.Sebenernya ini ceritanya sederhana banget, gak ada teka - teki yang harus dipecahkan, gak ada rumus matematika yang rumit, saking sederhananya mungkin akan terasa lambat di awal-awal, karena kejadiannya sangat biasa saja, mmm sampai tengah pun masih biasa saja. Tapi kesederhanaan ini sangat lekat pada keseharian banyak orang (setidaknya buat aku wkwk).April, 29 tahun, dengan kehidupan yang biasa-biasa saja, mengurus orang tua yang sedang sakit, hopeless-romantic sedangkan teman-temannya sudah pada nikah, saat scrolling instagram isinya antara bayi atau teman-temannya nikah, sedangkan April, hahahahahahah gitu weh, bingung kalo ditanya ‘kapan nikah’.Mirip lah sama gue, 26, temen2 w udah pada nikah …. mmm udah pada punya anak ke 2, promote kerjaan temen2 w pada bagus, sedangkan w begini - begini aja, kagak ada prestasi yang bisa dibanggakan (mmm kalo direply Pavel Durov bisa dianggap prestasi, mungkin itu satu-satunya prestasi yg bisa w sombongin wkwk), bingung kalo ditanya dan dibilang, ‘kapan nyusul ? semoga cepet nyusul ya’  bikos lollll dude, gue juga nanya kapan gue nikah wk. (Ingat, ini review campur curcol, jadi akan sangat nyampur-nyampur wkwkw).No. Dont pity me, dont stare me with that looks. Im fine, totally fine kalo ngomongin gituan. Karena w tim yang beranggapan, ya kalo udah saatnya entah darimana bakal dateng aja, udah ada yang ngatur, jadi selama belum ya w maksimalin ke yang lain. Santuy.Di awal baca penasaran sama akhir cerita April dan Armin, akan dibawa kemanakaaahhh hubungan yang setiap orang sepertinya punya versi masing-masing ini wk, tapi ketika di pertengahan dikenalkan dengan konflik keluarga dan konflik dirinya sendiri, aku jadi lebih ke yaudah we lah mari nikmati saja mau dibawa kemana, karena lagi-lagi cukup relatable. Lalu ketika penyelesaian dengan Armin yang bahkan menurutku biasa aja pun, yaudah weh, karena kenyataannya banyak juga di IRL yang penyelesaiannya sesederhana dan se-biasa itu, dan jawaban Ayahnya yang sangat sederhana pun ya emang karena se-sederhana itu (apasih ho ini bingungin hhhh) jadi ya gak kecewa.Dengan semua kesederhanaan yang sangat relatable itu, hmmmm baiklah kubulatkan menjadi 4 bintang. (cukup ajaib, mengingat w agak menghindari genre metropop).Dibawah ini lebih banyak curhatnya (just FYI in case kalian mau berhenti baca sampai sini wkwk)Ada banyak kalimat yang keluar dari mulut April yang bikin berdecak dan berkata ‘ih iya banget, iya banget’.“Pertemanan orang dewasa memang harus diupayakan”, ketika April bela-belain ke rumah Sita ditengah sibuk-sibuknya ngurusin kerjaan dan ayahnya. Indeed, apalagi ketika temen-temen lu udah pada nikah semua (dan atau punya anak), menciptakan pertemuan yang dulu terlihat mudah dan biasa saja menjadi cukup rumit dan butuh effort ekstra, butuh upaya lebih untuk membuatnya terjadi.Atau bagian ketika April melihat feeds atau story instagram yang isinya bayik teman-temannya, atau pernikahan teman-temannya, dll, terlebih ketika yang dilihat adalah orang-orang yang sebelum menikah bisa dibilang soulmate, atau teman prangkonya lah ya, tapi ketika orang-orang itu sudah menikah, weve become stranger. Totally stranger. Kalau kata April, “mungkin ketika kita bertemu lagi, kita mulai kenalan lagi kali ya, karena semua terasa berbeda, temanmu se-asing itu, lucu”.Apalagi yang ada di foto adalah teman satu-gengmu yang dulu ketika itu kamu ada didalamnya, lalu sekarang diantara kalian hanya kamu yang belum menikah, jadi kamu tidak masuk dalam circle itu lagi. Thats when you feel alienated, left out, alone, no one to talk to, years left behind, name it yang intinya: kamu udah gak jalan selangkah bareng2 lagi, karena kamu jauh tertinggal di belakang.Tapi ya gimana cuy, obrolan antara orang yang sudah menikah dan belum menikah pasti sangat jauh berbeda, dan hampir dipastikan kita mungkin akan cukup canggung untuk saling bercerita lagi karena obrolan yang se-irisannya sudah semakin sempit.Jadi ketika teman terdekatmu menikah, aku akan merasa senang sekaligus sedih. Senang karena akhirnya dia bersama seseorang yang akan ada di sisinya, sedih karena NTAR AKU MAIN SAMA SAPA YAAAAA HHHHHHHHH. I wont ignore that sad feeling, wajar kan punya perasaan sedih, jadi akan kunikmati lalu kupelajari sampai akhirnya I overcome it.Wew. Bisa jadi panjang gini hhhh.Lalu aku menemukan hal baru pada aku saat baca ini, 4 bintang biasanya kuberikan buku-buku yang ceritanya wow, setidaknya imajinatif. Tapi tidak untuk buku ini, justru kebalikannya, sederhana, tidak ada konflik yang terlalu puncak, tidak ada hal-hal imajinatif, tapi kejadian-kejadiannya sangat dekat, sangat relatable dan kejadian-kejadiannya cukup menjadi bahan renungan sejenak."
+    } ,
+  
+    {
+      "category" : "",
+      "title"    : "Mencari Simetri dan Curhatan Colongan Lainnya",
+      "tags"     : "review-buku, curhat",
+      "url"      : "/2020/01/11/Mencari-Simetri-dan-Curhatan-Colongan-Lainnya/",
+      "date"     : "2020-01-11 19:39:55 +0700",
+      "content"  : "IntermezzoGila w lama banget ninggalin belum nulis apa2 lagi sejak Hello World as first post. Lol. Emang kentara banget malesnya wkwk. Jadi dalam rangka mewujudkan resolusi 2020 yang semakin uwu mari Faizah mari, rada ditulis lagi, bukan cuma didiemin dan dianggurin di otak aja. Semoga.Review (dan Curcol)Awal - awal baca tuh kayak bingung kan, mikir ‘kok gak kayak buku-buku Annisa Ihsani yang lain ? Ga ada rumus matematika, gada hal matematika atau fisika atau sains lainnya yang harus dipecahkan, latar belakang tempat di Jakarta (?), dan hal-hal imajinatif lainnya yang biasanya dipakai Annisa Ihsani dalam buku-bukunya’. Turned out ini genrenya metropop, bukan middle grade atau YA seperti biasanya. Still, Annisa masih pakai kekhasannya kalau menulis, setidaknya di judul yang agak matematis(read: Simetri), dan gaya bahasa yang layaknya seperti membaca buku terjemahan.Sebenernya ini ceritanya sederhana banget, gak ada teka - teki yang harus dipecahkan, gak ada rumus matematika yang rumit, saking sederhananya mungkin akan terasa lambat di awal-awal, karena kejadiannya sangat biasa saja, mmm sampai tengah pun masih biasa saja. Tapi kesederhanaan ini sangat lekat pada keseharian banyak orang (setidaknya buat aku wkwk).April, 29 tahun, dengan kehidupan yang biasa-biasa saja, mengurus orang tua yang sedang sakit, hopeless-romantic sedangkan teman-temannya sudah pada nikah, saat scrolling instagram isinya antara bayi atau teman-temannya nikah, sedangkan April, hahahahahahah gitu weh, bingung kalo ditanya ‘kapan nikah’.Mirip lah sama gue, 26, temen2 w udah pada nikah …. mmm udah pada punya anak ke 2, promote kerjaan temen2 w pada bagus, sedangkan w begini - begini aja, kagak ada prestasi yang bisa dibanggakan (mmm kalo direply Pavel Durov bisa dianggap prestasi, mungkin itu satu-satunya prestasi yg bisa w sombongin wkwk), bingung kalo ditanya dan dibilang, ‘kapan nyusul ? semoga cepet nyusul ya’  bikos lollll dude, gue juga nanya kapan gue nikah wk. (Ingat, ini review campur curcol, jadi akan sangat nyampur-nyampur wkwkw).No. Dont pity me, dont stare me with that looks. Im fine, totally fine kalo ngomongin gituan. Karena w tim yang beranggapan, ya kalo udah saatnya entah darimana bakal dateng aja, udah ada yang ngatur, jadi selama belum ya w maksimalin ke yang lain. Santuy.Di awal baca penasaran sama akhir cerita April dan Armin, akan dibawa kemanakaaahhh hubungan yang setiap orang sepertinya punya versi masing-masing ini wk, tapi ketika di pertengahan dikenalkan dengan konflik keluarga dan konflik dirinya sendiri, aku jadi lebih ke yaudah we lah mari nikmati saja mau dibawa kemana, karena lagi-lagi cukup relatable. Lalu ketika penyelesaian dengan Armin yang bahkan menurutku biasa aja pun, yaudah weh, karena kenyataannya banyak juga di IRL yang penyelesaiannya sesederhana dan se-biasa itu, dan jawaban Ayahnya yang sangat sederhana pun ya emang karena se-sederhana itu (apasih ho ini bingungin hhhh) jadi ya gak kecewa.Dengan semua kesederhanaan yang sangat relatable itu, hmmmm baiklah kubulatkan menjadi 4 bintang. (cukup ajaib, mengingat w agak menghindari genre metropop).Dibawah ini lebih banyak curhatnya (just FYI in case kalian mau berhenti baca sampai sini wkwk)Ada banyak kalimat yang keluar dari mulut April yang bikin berdecak dan berkata ‘ih iya banget, iya banget’.“Pertemanan orang dewasa memang harus diupayakan”, ketika April bela-belain ke rumah Sita ditengah sibuk-sibuknya ngurusin kerjaan dan ayahnya. Indeed, apalagi ketika temen-temen lu udah pada nikah semua (dan atau punya anak), menciptakan pertemuan yang dulu terlihat mudah dan biasa saja menjadi cukup rumit dan butuh effort ekstra, butuh upaya lebih untuk membuatnya terjadi.Atau bagian ketika April melihat feeds atau story instagram yang isinya bayik teman-temannya, atau pernikahan teman-temannya, dll, terlebih ketika yang dilihat adalah orang-orang yang sebelum menikah bisa dibilang soulmate, atau teman prangkonya lah ya, tapi ketika orang-orang itu sudah menikah, weve become stranger. Totally stranger. Kalau kata April, “mungkin ketika kita bertemu lagi, kita mulai kenalan lagi kali ya, karena semua terasa berbeda, temanmu se-asing itu, lucu”.Apalagi yang ada di foto adalah teman satu-gengmu yang dulu ketika itu kamu ada didalamnya, lalu sekarang diantara kalian hanya kamu yang belum menikah, jadi kamu tidak masuk dalam circle itu lagi. Thats when you feel alienated, left out, alone, no one to talk to, years left behind, name it yang intinya: kamu udah gak jalan selangkah bareng2 lagi, karena kamu jauh tertinggal di belakang.Tapi ya gimana cuy, obrolan antara orang yang sudah menikah dan belum menikah pasti sangat jauh berbeda, dan hampir dipastikan kita mungkin akan cukup canggung untuk saling bercerita lagi karena obrolan yang se-irisannya sudah semakin sempit.Jadi ketika teman terdekatmu menikah, aku akan merasa senang sekaligus sedih. Senang karena akhirnya dia bersama seseorang yang akan ada di sisinya, sedih karena NTAR AKU MAIN SAMA SAPA YAAAAA HHHHHHHHH. I wont ignore that sad feeling, wajar kan punya perasaan sedih, jadi akan kunikmati lalu kupelajari sampai akhirnya I overcome it.Wew. Bisa jadi panjang gini hhhh.Lalu aku menemukan hal baru pada aku saat baca ini, 4 bintang biasanya kuberikan buku-buku yang ceritanya wow, setidaknya imajinatif. Tapi tidak untuk buku ini, justru kebalikannya, sederhana, tidak ada konflik yang terlalu puncak, tidak ada hal-hal imajinatif, tapi kejadian-kejadiannya sangat dekat, sangat relatable dan kejadian-kejadiannya cukup menjadi bahan renungan sejenak."
+    } ,
+  
+    {
+      "category" : "",
+      "title"    : "Mandatory Hello World",
+      "tags"     : "daily, random",
+      "url"      : "/2019/12/06/mandatory-hello-wordl-copy-12/",
+      "date"     : "2019-12-06 19:39:55 +0700",
+      "content"  : "**picture from pinterestJust like others first post, so this gonna be my mandatory ‘Hello World’ post. My first post.Jadi dengan published-nya jekyll blog ini, entah udah berapa platform blog yang Faizah pake buat ngeblog, tapi sepertinya akan diakhirkan disini (jekyll) aja (meureun, soalnya penasaran netlify :p)Alasan ganti-ganti ? Ga sreggggg, dulu pake blogspot pas pertama kali nge blog, terus lanjut tumblr, lanjut wordpress, dan terakhir dipindahin kesini.Faizah kan anaknya bosenan yah, pasti tiap bulan bisa ngoprek2 buat ganti tampilan apa kek apa kek, nah mereka2 yang w sebutin diatas gabegitu ngasih kebebasan lebih untuk explore sana-sini sepuas-puasnya banget, alhamdulillah banget nemu jekyll yang ngasi kebebasan bebas banget tapi tetep ga ribet, yakalo ribet w juga males sik loool, sekalian itung2 nambah belajar styling dll.Oh iya dan ini bebas banget dan haratis tinggal push biasa aja gitu ke github jadi enaaaa.Bahasannya ga bakal beda jauh sih sama sebelum2nya, bacotan sehari-hari aja gitu, review buku, review film, review kafe (halah), apa aja sesuka hati w pokonya (kalo ga males nulis wleeekkkk) sama ditambah nulis2 ttg ilmu baru yang bisa dishare, mmmmmm sambil latihan bahasa Inggris. Mayan buat porto kan ya.Sekian opening mandatory hello world nya, jadi nantikan debut tulisan rada beneran di next postingan yak ."
+    } 
+  
+  ,
+  
+   {
+     
+        "title"    : "Page not found",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/404.html",
+        "date"     : "",
+        "content"  : "  404  The requested page could not be found.   Back to the blog"
+     
+   } ,
+  
+   {
+     
+        "title"    : "About",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/about/",
+        "date"     : "",
+        "content"  : "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.comYou can find the source code for Minima at GitHub:jekyll /minimaYou can find the source code for Jekyll at GitHub:jekyll /jekyll"
+     
+   } ,
+  
+   {
+     
+        "title"    : "About Faizah",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/aboutme/",
+        "date"     : "",
+        "content"  : "                                            FAIZAH AULIA                                          HOME (current)                                BLOG                                        About Me          Hi, my name is Faizah Aulia. I love to learn something new and challenge myself into field I never been into, thats why I took my degree on Computer Science Education as in IT field we always learn something new everyday. I started code at age 11 with macromedia flash (now known as Adobe Flash), it was my first experience and I fall in love at coding, thus I always took IT-related extracullicular when I was in High School (both Junior and Senior High School) then I landed my degree on Computer Science Education in College.              Once I thought am not fit into this industry, impostor syndrome, dominate with men, etc, it was up and down, but I just keep moving forward though I dont know where this path lead me to, I mean we&#39;ll never get 100% knowledge bout a things.      Fail more fail often somehow become my motto nowadays.        Work Experience          BAPPENAS      2017 - 2018              Software Developer       Build system that connecting between 2 departments so it will made them easier to decided something as data they needed shared together in one place.       Technology I use : Code Igniter, JQuery, Javascript, SCSS              Crafter Digital      2019              Ruby on Rails Developer       Developing apps using ruby on rails.       Technology I use : Ruby on Rails, JQuery, Javascript, SCSS, Webpack, Heroku                          Faizah Aulia                                                        Faizah Aulia 2021 - ALL REGISTERED            "
+     
+   } ,
+  
+   {
+     
+        "title"    : "Blog Faizah Aulia",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/",
+        "date"     : "",
+        "content"  : "                                            FAIZAH AULIA                                          HOME (current)                                BLOG                              tes              BLOG                                                                                Tags                                      book                      book-techno                      buku                      curhat                      daily                      insight                      rails                      random                      review-buku                                                          Faizah Aulia                                                        Faizah Aulia 2021 - ALL REGISTERED            "
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Faizah Blog",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/blog/",
+        "date"     : "",
+        "content"  : "                                              FAIZAH AULIA                                          HOME (current)                                BLOG                                              BLOG                                                May 24, 2021              Book Summary: Rails Anti Pattern by Chad Pytel and Tammer Saleh(pt. 1-Model)                      As Junior Developer Rails, I do realize Im still lack of knowledge of this beautiful programming language here and there, so I try to find as many as source to learn more about this language. So many people recommend this book titled ‘Rails Anti Pattern’ by Chad Pytel and Tammer Saleh. I havent...                                                  Tags :               rails                          book-techno                          book                                                                        January 14, 2020              My Reading Journey and Things I Just Realized (also I learned)                      Book vector created by slidesgo- www.freepik.comReview (dan Curcol)Awal - awal baca tuh kayak bingung kan, mikir ‘kok gak kayak buku-buku Annisa Ihsani yang lain ? Ga ada rumus matematika, gada hal matematika atau fisika atau sains lainnya yang harus dipecahkan, latar belakang tempat di Jak...                                                  Tags :               buku                          curhat                          insight                                                                        January 11, 2020              Mencari Simetri dan Curhatan Colongan Lainnya                      IntermezzoGila w lama banget ninggalin belum nulis apa2 lagi sejak Hello World as first post. Lol. Emang kentara banget malesnya wkwk. Jadi dalam rangka mewujudkan resolusi 2020 yang semakin uwu mari Faizah mari, rada ditulis lagi, bukan cuma didiemin dan dianggurin di otak aja. Semoga.Review...                                                  Tags :               review-buku                          curhat                                                                        December 6, 2019              Mandatory Hello World                      **picture from pinterestJust like others first post, so this gonna be my mandatory ‘Hello World’ post. My first post.Jadi dengan published-nya jekyll blog ini, entah udah berapa platform blog yang Faizah pake buat ngeblog, tapi sepertinya akan diakhirkan disini (jekyll) aja (meureun, soalnya p...                                                  Tags :               daily                          random                                                                    &amp;laquo; Prev              1            Next &amp;raquo;                                            Tags                                      book                      book-techno                      buku                      curhat                      daily                      insight                      rails                      random                      review-buku                                                          Faizah Aulia                                                        Faizah Aulia 2021 - ALL REGISTERED            "
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+        "title"    : "Style Guide",
+        "category" : "",
+        "tags"     : "",
+        "url"      : "/styleguide/",
+        "date"     : "",
+        "content"  : "A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key iceland.***### Headings by default:# This is the default title## This is the default title### This is the default title#### This is the default title##### This is the default title###### This is the default title{% highlight markdown %}## Heading first level### Heading second level#### Heading third level{% endhighlight %}***### Lists#### Ordered list example:1. Poutine drinking vinegar bitters.2. Coloring book distillery fanny pack.3. Venmo biodiesel gentrify enamel pin meditation.4. Jean shorts shaman listicle pickled portland.5. Salvia mumblecore brunch iPhone migas.***#### Unordered list example:* Bitters semiotics vice thundercats synth.* Literally cred narwhal bitters wayfarers.* Kale chips chartreuse paleo tbh street art marfa.* Mlkshk polaroid sriracha brooklyn.* Pug you probably haven&#39;t heard of them air plant man bun.{% highlight markdown %}1. Order list item 12. Order list item 1* Unordered list item 1* Unordered list item 2{% endhighlight %}***### Quotes&gt; Coming together is a beginning; keeping together is progress; working together is success. — Edward Everett Hale***### Syntax Highlighter{% highlight js %}  $(&#39;.top&#39;).click(function () {    $(&#39;html, body&#39;).stop().animate({ scrollTop: 0 }, &#39;slow&#39;, &#39;swing&#39;);  });  $(window).scroll(function () {    if ($(this).scrollTop() &gt; $(window).height()) {      $(&#39;.top&#39;).addClass(&quot;top-active&quot;);    } else {      $(&#39;.top&#39;).removeClass(&quot;top-active&quot;);    };  });{% endhighlight %}***### Videos***### Images![]({{site.baseurl}}/images/09.jpg)*Backyard****"
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } ,
+  
+   {
+     
+   } 
+  
+]
