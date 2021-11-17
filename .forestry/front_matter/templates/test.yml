@@ -3,10 +3,6 @@ label: test
 hide_body: false
 fields:
 - type: text
-  name: layout
-  label: layout
-  default: post
-- type: text
   name: title
   label: title
 - type: datetime
@@ -21,5 +17,9 @@ fields:
   label: tags
   hidden: false
   description: give tags for this post
+- type: text
+  name: layout
+  label: layout
+  default: post
 pages:
 - _posts/2021-11-15-try-new-post.md
