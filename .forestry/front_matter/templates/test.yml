@@ -19,5 +19,7 @@ fields:
 - type: text
   name: tags
   label: tags
+  hidden: false
+  description: give tags for this post
 pages:
 - _posts/2021-11-15-try-new-post.md
