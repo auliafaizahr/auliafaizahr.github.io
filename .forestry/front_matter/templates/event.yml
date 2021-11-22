@@ -43,5 +43,3 @@ fields:
     schema:
       format: markdown
   label: Event Description
-pages:
-- _posts/2021-11-22-try-event-post.md
