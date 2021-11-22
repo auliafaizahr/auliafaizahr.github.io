@@ -16,20 +16,6 @@ fields:
     time_format: 
     display_utc: false
   label: Event Date
-- name: tag
-  type: select
-  default: ''
-  config:
-    required: false
-    options:
-    - event
-    - " wedding"
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Tag
 - name: photos
   type: image_gallery
   config: {}
@@ -43,3 +29,7 @@ fields:
     schema:
       format: markdown
   label: Event Description
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
