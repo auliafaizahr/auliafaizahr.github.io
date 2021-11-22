@@ -21,5 +21,6 @@ fields:
   name: layout
   label: layout
   default: post
+  hidden: true
 pages:
 - _posts/2021-11-15-try-new-post.md
