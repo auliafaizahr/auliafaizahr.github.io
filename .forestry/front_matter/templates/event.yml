@@ -41,3 +41,5 @@ fields:
     schema:
       format: markdown
   label: Event Description
+pages:
+- _posts/try-event-post.md
