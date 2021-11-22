@@ -1,5 +1,5 @@
 ---
-tag: ''
+tag: event
 title: Try Event Post
 event_date: 2021-11-22 00:00:00 +0700
 photos:
