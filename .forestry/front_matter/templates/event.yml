@@ -18,10 +18,12 @@ fields:
   label: Event Date
 - name: tag
   type: select
-  default: []
+  default: ''
   config:
     required: false
-    options: []
+    options:
+    - event
+    - " wedding"
     source:
       type: simple
       section: 
