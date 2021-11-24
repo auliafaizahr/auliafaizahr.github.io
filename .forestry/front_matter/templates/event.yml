@@ -34,4 +34,4 @@ fields:
   default: []
   label: tags
 pages:
-- _posts/Events/test-event.md
+- _posts/Events/2021-11-24-test-event.md
