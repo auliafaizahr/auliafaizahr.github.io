@@ -33,3 +33,5 @@ fields:
   type: tag_list
   default: []
   label: tags
+pages:
+- _posts/Events/test-event.md
